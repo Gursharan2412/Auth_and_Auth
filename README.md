@@ -1,15 +1,18 @@
 # Authentication and Authorization Learning
 
-This repo demonstrates the implementation of authentication and authorization using modern web development technologies such as **Node.js**, **Express**, **MongoDB**, **JWT**, and **bcrypt**. It is designed to help developers understand and practice securing their applications.
+This repo demonstrates the implementation of authentication, authorization and data association using modern web development technologies such as **Node.js**, **Express**, **MongoDB**, **JWT**, and **bcrypt**. It is designed to help developers understand and practice securing their applications.
 
 ---
 
 ## Features
-- **User Creation**: New users can sign up with unique credentials.
-- **User Login**: Registered users can log in to their accounts.
-- **Password Hashing**: Passwords are securely hashed using bcrypt.
-- **Token-based Authentication**: JWT tokens are used for secure API access.
-- **Logout**: Invalidate user sessions securely.
+1. **Authentication and Authorization**  
+   - JWT Token creation and verification  
+   - Password hashing with bcrypt  
+   - Secure login and logout functionalities  
+
+2. **Data Association**  
+   - Embedding and Referencing data in MongoDB  
+   - CRUD operations on associated data  
 
 ---
 
